@@ -1,0 +1,21 @@
+@'
+# Visual Studio
+*.sln
+*.vcxproj*
+.vscode/
+
+# Binaries, intermediates, derived data
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Mac files
+.DS_Store
+
+# User-specific files
+.vs/
+.idea/
+*.user
+'@ | Out-File -Encoding UTF8 .gitignore
